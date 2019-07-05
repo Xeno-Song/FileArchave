@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Encoding">
+      <UniqueIdentifier>{0f0b2510-c277-4f23-9fa4-62ced4ef1a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Decoding">
+      <UniqueIdentifier>{6c22865d-6e88-42b0-9b90-5d5d77334fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CreateFile">
+      <UniqueIdentifier>{d0c6b076-d169-45c8-8d70-bf04a8f8ab4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CreateFile\FileStructure">
+      <UniqueIdentifier>{39638828-e8dd-4877-8d25-3472aa223211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FileReader">
+      <UniqueIdentifier>{3d4d0e59-fda2-4d35-b995-50815882d13d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FileWriter">
+      <UniqueIdentifier>{85df8e1d-77a2-43e8-94ee-78af3a071d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Archive">
+      <UniqueIdentifier>{6916357f-9490-4972-9fe1-94df6b8361f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileStructure.h">
+      <Filter>Source Files\CreateFile\FileStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader.h">
+      <Filter>Source Files\FileReader</Filter>
+    </ClInclude>
+    <ClInclude Include="cArchave.h">
+      <Filter>Source Files\Archive</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileReader.cpp">
+      <Filter>Source Files\FileReader</Filter>
+    </ClCompile>
+    <ClCompile Include="cArchave.cpp">
+      <Filter>Source Files\Archive</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
